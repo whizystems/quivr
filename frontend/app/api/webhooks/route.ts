@@ -26,7 +26,7 @@ const fetchPrices = async () => {
   try {
     const response = await axios.get('https://api.stripe.com/v1/prices', {
       headers: {
-        Authorization: `Bearer sk_test_51NcYd8FHD0vSmeBw1eRwgIjGEgqTSEJfawpY7Z2tqkPUjbrVDmsbhSEqY3vKooaffetgDYTb8I6ilw1HtxENmSoE00GTcWEtYm`,
+        Authorization: `Bearer `,
       },
       params: {
         product: productId,
@@ -56,7 +56,7 @@ const findMatchingTier = async (checkoutPrice: number) => {
 export const POST = async (req: Request): Promise<Response> => {
   const body = await req.text();
   const sig = headers().get('Stripe-Signature') as string;
-  const webhookSecret = "whsec_a2e41db6ffbfdc15c01f8e2daade3c3ce7d225af4dd49bb26695960b1d6d7fdd"; //process.env.STRIPE_WEBHOOK_SECRET;
+  const webhookSecret = ""; //process.env.STRIPE_WEBHOOK_SECRET;
 
   if (sig === "") {
     return new Response('', { status: 400 });
