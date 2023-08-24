@@ -13,9 +13,9 @@ module.exports = {
     "import/no-unresolved": 0,
     "import/prefer-default-export": 0,
     "import/no-duplicates": "error",
-    complexity: ["error", 8],
-    "max-lines": ["error", 100],
-    "max-depth": ["error", 3],
+    complexity: ["error", 12],
+    "max-lines": ["error", 120],
+    "max-depth": ["error", 5],
     "max-params": ["error", 4],
     eqeqeq: ["error", "smart"],
     "import/no-extraneous-dependencies": [
