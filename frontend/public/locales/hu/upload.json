@@ -1,0 +1,18 @@
+{
+    "title": "Tudás Feltöltése",
+    "subtitle": "Szöveg, dokumentum, táblázat, bemutató, hang, video és URL támogatva",
+    "drop": "Dobja le a fájlokat ide...",
+    "dragAndDrop": "Húzza és ejtse a fájlokat ide, vagy kattintson a böngészéshez",
+    "webSite": "Illesszen be webhely URL-t",
+    "success": "Fájl sikeresen feltöltve",
+    "error": "Sikertelen fájl feltöltés: {{message}}",
+    "maxSizeError": "Túl nagy fájl",
+    "alreadyAdded": "{{fileName}} már hozzá lett adva",
+    "addFiles": "Kérjük, adjon hozzá fájlokat a feltöltéshez",
+    "selectBrain": "Kérjük, válasszon vagy hozzon létre egy agyat a fájl feltöltéséhez",
+    "invalidUrl": "Érvénytelen URL",
+    "crawlFailed": "Nem sikerült feltérképezni a webhelyet: {{message}}",
+    "ohNo": "Jaj, ne!",
+    "selectBrainFirst": "Először ki kell választania egy agyat. 🧠💡🥲",
+    "missingNecessaryRole": "Nincs megfelelő jogosultságod a kiválasztott agyhoz tartalom feltöltéséhez. 🧠💡🥲"
+}

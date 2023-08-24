@@ -1,0 +1,8 @@
+{
+    "title": "Kijelentkezés",
+    "subtitle": "Viszontlátásra legközelebb",
+    "areYouSure": "Biztosan ki szeretnél jelentkezni?",
+    "cancel": "Vissza",
+    "error": "Hiba a kijelentkezés közben: {{errorMessage}}",
+    "loggedOut": "Sikeres kijelentkezés"
+}

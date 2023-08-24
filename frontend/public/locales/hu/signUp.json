@@ -1,0 +1,13 @@
+{
+    "title": "Regisztráció",
+    "subtitle": "Hozd létre a fiókodat",
+    "email": "Email",
+    "password": "Jelszó",
+    "loginButton": "Bejelentkezés",
+    "signUpButton": "Regisztráció",
+    "or": "vagy",
+    "login": "Már regisztrált? Jelentkezz be",
+    "googleLogin": "Bejelentkezés Google-fiókkal",
+    "errorSignUp": "Hiba történt a regisztráció során: {{errorMessage}}",
+    "mailSended": "Megerősítő email elküldve, kérjük ellenőrizze az email fiókját"
+}

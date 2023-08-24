@@ -41,6 +41,20 @@ import translation_fr from "../../../public/locales/fr/translation.json";
 import updatePassword_fr from "../../../public/locales/fr/updatePassword.json";
 import upload_fr from "../../../public/locales/fr/upload.json";
 import user_fr from "../../../public/locales/fr/user.json";
+// import all namespaces Hungarian
+import brain_hu from "../../../public/locales/hu/brain.json";
+import chat_hu from "../../../public/locales/hu/chat.json";
+import config_hu from "../../../public/locales/hu/config.json";
+import delete_brain_hu from "../../../public/locales/hu/deleteBrain.json";
+import explore_hu from "../../../public/locales/hu/explore.json";
+import invitation_hu from "../../../public/locales/hu/invitation.json";
+import login_hu from "../../../public/locales/hu/login.json";
+import logout_hu from "../../../public/locales/hu/logout.json";
+import signUp_hu from "../../../public/locales/hu/signUp.json";
+import translation_hu from "../../../public/locales/hu/translation.json";
+import updatePassword_hu from "../../../public/locales/hu/updatePassword.json";
+import upload_hu from "../../../public/locales/hu/upload.json";
+import user_hu from "../../../public/locales/hu/user.json";
 // import all namespaces Portuguese
 import brain_ptbr from "../../../public/locales/pt-br/brain.json";
 import chat_ptbr from "../../../public/locales/pt-br/chat.json";
@@ -104,6 +118,7 @@ export type Translations = {
 
 enum SupportedLanguages {
   en = "en",
+  hu = "hu",
   es = "es",
   fr = "fr",
   ptbr = "ptbr",
@@ -157,6 +172,21 @@ export const resources: Record<SupportedLanguages, Translations> = {
     upload: upload_fr,
     user: user_fr,
     delete_brain: delete_brain_fr,
+  },
+  hu: {
+    brain: brain_hu,
+    chat: chat_hu,
+    config: config_hu,
+    explore: explore_hu,
+    invitation: invitation_hu,
+    login: login_hu,
+    logout: logout_hu,
+    signUp: signUp_hu,
+    translation: translation_hu,
+    updatePassword: updatePassword_hu,
+    upload: upload_hu,
+    user: user_hu,
+    delete_brain: delete_brain_hu,
   },
   ptbr: {
     brain: brain_ptbr,

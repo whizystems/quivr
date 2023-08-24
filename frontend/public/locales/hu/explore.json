@@ -1,0 +1,14 @@
+{
+    "title": "Feltöltött adatok felfedezése",
+    "subtitle": "Tekintse meg vagy törölje az agy által használt tárolt adatokat",
+    "empty": "Óh, nincs adat az agyadban.",
+    "noBrain": "Az agy azonosítója nem található",
+    "sessionNotFound": "Felhasználói munkamenet nem található",
+    "deleted": "{{fileName}} törölve az agybol: {{brain}}",
+    "errorDeleting": "Hiba történt a(z) {{fileName}} törlése közben",
+    "view": "Megtekintés",
+    "chunkNumber": "Darabok száma: {{quantity}}",
+    "notAvailable": "Nem elérhető",
+    "deleteConfirmTitle": "Megerősítés",
+    "deleteConfirmText": "Biztosan törölni szeretnéd?"
+}
