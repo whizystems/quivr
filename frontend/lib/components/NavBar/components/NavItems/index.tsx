@@ -46,6 +46,9 @@ export const NavItems = ({
           <NavLink setOpen={setOpen} to="/explore">
             {t("Explore")}
           </NavLink>
+          <NavLink setOpen={setOpen} to="/pricing">
+            Pricing
+          </NavLink>
         </>
       ) : (
         <>
@@ -54,6 +57,9 @@ export const NavItems = ({
           </NavLink>
           <NavLink setOpen={setOpen} to="https://discord.gg/HUpRgp2HG8">
             Discord
+          </NavLink>
+          <NavLink setOpen={setOpen} to="/pricing">
+            Pricing
           </NavLink>
         </>
       )}
