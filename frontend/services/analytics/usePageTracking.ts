@@ -15,8 +15,8 @@ export const usePageTracking = (): void => {
   useEffect(() => {
     if (pathname !== null) {
       const handleRouteChange = async () => {
-        await analytics?.identify(session?.user.id);
-        await analytics?.page(pathname);
+        // await analytics?.identify(session?.user.id);
+        // await analytics?.page(pathname);
       };
 
       void handleRouteChange();

@@ -11,8 +11,8 @@ export const useEventTracking = () => {
   const { session } = useSupabase();
 
   const track = async (event: string): Promise<void> => {
-    await analytics?.identify(session?.user.id, {email: session?.user.email});
-    await analytics?.track(event);
+    // await analytics?.identify(session?.user.id, {email: session?.user.email});
+    // await analytics?.track(event);
   };
 
   return {
