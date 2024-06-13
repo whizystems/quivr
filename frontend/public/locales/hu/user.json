@@ -1,0 +1,9 @@
+{
+    "title": "{{user}} agyhasználata",
+    "fetching": "Az adataid lekérése...",
+    "requestsCount": "Mai kérések: {{count}}",
+    "brainSize": "Maradék agyméret",
+    "empty": "Üres",
+    "Used": "Használt",
+    "Unused": "Nem használt"
+}

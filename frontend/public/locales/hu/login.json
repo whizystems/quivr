@@ -1,0 +1,15 @@
+{
+    "title": "Bejelentkezés",
+    "subtitle": "Üdvözöljük újra",
+    "signup": "Nincs fiókod? Regisztrálj",
+    "forgottenPassword": "Elfelejtett jelszó",
+    "googleLogin": "Bejelentkezés Google-fiókkal",
+    "magicLink": "Mágikus link küldése",
+    "loginSuccess": "Sikeresen bejelentkezve",
+    "errorMailMissed": "Kérjük, adja meg az email címét",
+    "recoveryMailSended": "A helyreállító e-mail elküldésre kerül, ha az email azonosítva lesz",
+    "Invalidlogincredentials": "Érvénytelen bejelentkezési adatok",
+    "password.updated": "Jelszó sikeresen frissítve!",
+    "new_password": "Új jelszó",
+    "Failedtofetch": "Az adatok lekérése sikertelen"
+}

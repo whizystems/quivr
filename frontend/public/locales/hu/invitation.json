@@ -1,0 +1,13 @@
+{
+    "wellcome": "Üdvözöljük a(z) {{brain}}-ban!",
+    "invitationMessage": "Meghívtak, hogy csatlakozz ehhez az agyhoz mint a(z) {{role}}, és kezd el felfedezni. Elfogadod ezt izgalmas utazást?",
+    "processingRequest": "Kérelem feldolgozása...",
+    "accept": "Igen, részt veszek!",
+    "reject": "Nem, köszönöm.",
+    "invitationNotFound": "Ez a meghívás érvénytelen.",
+    "errorCheckingInvitation": "Ismeretlen hiba történt a meghívás ellenőrzése közben",
+    "accepted": "Meghívás elfogadva",
+    "errorAccepting": "Ismeretlen hiba történt a meghívás elfogadása közben",
+    "declined": "Meghívás visszautasítva",
+    "errorDeclining": "Ismeretlen hiba történt a meghívás visszautasítása közben"
+}
